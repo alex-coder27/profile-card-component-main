@@ -1,0 +1,27 @@
+:root {
+    --color-primary-1: hsl(185, 75%, 39%);
+    --color-primary-2: hsl(229, 23%, 23%);
+    --color-primary-3: hsl(227, 10%, 46%);
+    --color-neutral-1: hsl(225, 10%, 92%);
+    --color-neutral-2: hsl(0, 0%, 100%);
+    --color-diviser: hsla(225, 10%, 92%, 0.212);
+
+    --size-base: 1.125rem;
+    --size-sm: 0.875rem;
+    --size-xs: 0.5625rem;
+
+    --profile-picture-size: 6.5625rem;
+    --profile-picture-border: 0.3125rem; 
+    --profile-header-height: 8.75rem; 
+    --card-border-radius: 0.9375rem;
+    --card-width: 20.375rem; 
+
+    
+    --color-bg-body: var(--color-primary-1);
+    --color-bg-card: var(--color-neutral-2);
+    --color-border-profile: var(--color-neutral-2);
+
+   --font-weight-regular: 400;
+   --font-weight-bold: 700;
+   --font-family: 'Kumbh Sans';
+}

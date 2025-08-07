@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght,YOPQ@100..900,40..300&display=swap');
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-regular);
+    font-size: var(--size-base);
+    background-color: var(--color-bg-body);
+    background-image: 
+        url('../images/bg-pattern-top.svg'), 
+        url('../images/bg-pattern-bottom.svg');
+    background-repeat: no-repeat;
+    background-position:
+        right calc(40vw - 0.5rem) bottom calc(45vh - 0.5rem),
+        left calc(40vw - 0.5rem) top calc(35vh - 0.5rem);
+    background-size: auto;
+    padding: 1rem;
+}
+
+.page-wrapper {
+    max-width: 90rem;
+    margin: 0 auto;
+}

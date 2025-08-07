@@ -1,0 +1,99 @@
+.profile-card {
+    width: min(var(--card-width), 90vw);
+    height: calc(var(--card-width) * 1.148);
+    border-radius: var(--card-border-radius);
+    background-color: var(--color-bg-card);
+    overflow: hidden;
+    position: relative;
+}
+
+.profile-header {
+    height: var(--profile-header-height);
+    position: relative;
+    margin-block-end: calc(var(--size-sm) * 0.714);
+}
+
+.background-pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/bg-pattern-card.svg');
+    background-size: cover;
+}
+
+.profile-picture-wrapper {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: calc(var(--profile-header-height) - (var(--profile-picture-size) / 2));
+    width: var(--profile-picture-size);
+    height: var(--profile-picture-size);
+    border-radius: 50%;
+    border: var(--profile-picture-border) solid var(--color-border-profile);
+    overflow: hidden;
+}
+
+.profile-picture {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-info {
+    text-align: center;
+    padding-block-start: calc((var(--profile-picture-size) / 2) + var(--profile-picture-border));
+    margin-block-end: 1.375rem;
+}
+
+.profile-name {
+    font-size: var(--size-base);
+    color: var(--color-primary-2);
+    font-weight: var(--font-weight-bold);
+    margin-block-end: 0.3125rem;
+}
+
+.profile-age {
+    color: var(--color-primary-3);
+    margin-inline-start: 0.3125rem;
+}
+
+.profile-location {
+    color: var(--color-primary-3);
+    font-size: var(--size-sm);
+}
+
+.divider {
+     border-color: var(--color-diviser);
+}
+
+.profile-stats {
+    display: flex;
+    justify-content: center;
+}
+
+.stat-list {
+    display: flex;
+    gap: calc(1.375rem * 1.5);
+    padding: 1.375rem 0;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline-end: calc(var(--size-base) * 0.6667);
+}
+
+.stat-value {
+    font-weight: var(--font-weight-bold);
+    color: var(--color-primary-2);
+}
+
+.stat-label {
+    font-size: var(--size-xs);
+    letter-spacing: 0.125em;
+    color: var(--color-primary-3);
+    margin-block-start: 0.25rem;
+}
