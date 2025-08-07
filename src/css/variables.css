@@ -4,6 +4,7 @@
     --color-primary-3: hsl(227, 10%, 46%);
     --color-neutral-1: hsl(225, 10%, 92%);
     --color-neutral-2: hsl(0, 0%, 100%);
+    --color-link-footer: hsl(228, 45%, 44%);
     --color-diviser: hsla(225, 10%, 92%, 0.212);
 
     --size-base: 1.125rem;

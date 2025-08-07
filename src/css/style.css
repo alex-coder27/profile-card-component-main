@@ -1,3 +1,7 @@
+.profile-card-container {
+    margin-bottom: 2rem;
+}
+
 .profile-card {
     width: min(var(--card-width), 90vw);
     height: calc(var(--card-width) * 1.148);
@@ -65,7 +69,7 @@
 }
 
 .divider {
-     border-color: var(--color-diviser);
+    border-color: var(--color-diviser);
 }
 
 .profile-stats {
@@ -96,4 +100,14 @@
     letter-spacing: 0.125em;
     color: var(--color-primary-3);
     margin-block-start: 0.25rem;
+}
+
+.attribution {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.attribution a {
+    color: var(--color-link-footer);
+    text-decoration: underline;
 }
