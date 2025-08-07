@@ -14,8 +14,8 @@ body {
         url('../images/bg-pattern-bottom.svg');
     background-repeat: no-repeat;
     background-position:
-        right calc(40vw - 0.5rem) bottom calc(45vh - 0.5rem),
-        left calc(40vw - 0.5rem) top calc(35vh - 0.5rem);
+        right calc(var(--mobile-pos-h) - var(--mobile-offset)) bottom calc(var(--mobile-pos-bottom) - var(--mobile-offset)),
+        left calc(var(--mobile-pos-h) - var(--mobile-offset)) top calc(var(--mobile-pos-top) - var(--mobile-offset));
     background-size: auto;
     padding: 1rem;
 }

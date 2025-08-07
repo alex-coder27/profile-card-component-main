@@ -10,6 +10,16 @@
     --size-sm: 0.875rem;
     --size-xs: 0.5625rem;
 
+    --mobile-pos-h: 40vw;
+    --mobile-pos-top: 35vh;
+    --mobile-pos-bottom: 45vh;
+    --mobile-offset: 0.5rem;
+
+    --desktop-top-pos: 45vw;
+    --desktop-top-offset: 30vw;
+    --desktop-bottom-pos: 50vw;
+    --desktop-bottom-offset: 20vw;
+
     --profile-picture-size: 6.5625rem;
     --profile-picture-border: 0.3125rem; 
     --profile-header-height: 8.75rem; 

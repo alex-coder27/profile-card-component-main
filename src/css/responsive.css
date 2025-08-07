@@ -1,0 +1,7 @@
+@media (min-width: 48rem) {
+    body {
+        background-position:
+            right var(--desktop-bottom-pos) bottom var(--desktop-bottom-offset),
+            left var(--desktop-top-pos) top var(--desktop-top-offset);
+    }
+}
